@@ -196,7 +196,7 @@ h1{
 .icons{
     width: 250px;
     height:50px;
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px black;
     float: left;
     margin-top: 100px;
 }
