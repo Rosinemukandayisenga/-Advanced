@@ -9,13 +9,14 @@ body{
 .dashboard-container{
     display: grid;
     grid-template-columns: 0.2fr 1fr;
-    background: black;
+    /* background: black; */
     width: 100%;
     height: 100vh;
 }
 .sidebar{
     background: rgb(24, 111, 137);
-    /* position: fixed; */
+    height:auto;
+    
 }
 .therest{
     background: rgb(237, 235, 235);
@@ -110,7 +111,7 @@ font-size: 20px;
 .upcontainer{
     width: 400px;
     height: 50px;
-    background: black;
+    /* background: black; */
 }
 .down > button{
     width: 150px;
@@ -171,9 +172,11 @@ h1{
     text-align: center;
 }
 .uprightgroup{
-    background: brown;
+    /* background: brown; */
     width: 300px;
-    height: 250px;
+    height: auto;
+    border: 2px solid grey;
+    border-radius: 10px;
 }
 .downrightgroup{
     margin-top: 10px;
@@ -189,6 +192,20 @@ h1{
 }
 .five > div > p{
     font-weight: bold;
+}
+.icons{
+    width: 250px;
+    height:50px;
+    box-shadow: 2px 2px 5px grey;
+    float: left;
+    margin-top: 100px;
+}
+.uprightgroup > h4{
+    text-align: center;
+}
+.uprightgroup > p{
+    border-bottom: 3px solid black;
+
 }
 
 
